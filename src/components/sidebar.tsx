@@ -44,27 +44,27 @@ export function Sidebar({ isOpen, onClose }: SidebarProps) {
     },
     {
       title: "Analytics",
-      href: "/analytics",
+      href: "/dashboard/analytics",
       icon: <BarChart3 className="h-5 w-5" />
     },
     {
       title: "Products",
-      href: "/products",
+      href: "/dashboard/products",
       icon: <Package className="h-5 w-5" />
     },
     {
       title: "Customers",
-      href: "/customers",
+      href: "/dashboard/customers",
       icon: <Users className="h-5 w-5" />
     },
     {
       title: "Orders",
-      href: "/orders",
+      href: "/dashboard/orders",
       icon: <ShoppingBag className="h-5 w-5" />
     },
     {
       title: "Settings",
-      href: "/settings",
+      href: "/dashboard/settings",
       icon: <Settings className="h-5 w-5" />
     }
   ]
