@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Sales Dashboard Project
 
-## Getting Started
+## Overview
 
-First, run the development server:
+This is the repository for the Sales Dashboard project, a modern, responsive dashboard for sales data visualization and management.
+
+## Project Structure
+
+The main application is located in the `dashboard` directory. Please navigate there for the full application:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+cd dashboard
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+See the [dashboard README](dashboard/README.md) for complete documentation, including:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Features
+- Installation instructions
+- Usage guide
+- Project structure
+- Deployment information
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Quick Start
 
-## Learn More
+To get started quickly:
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+# Navigate to the dashboard directory
+cd dashboard
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# Install dependencies
+npm install
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+# Start the development server
+npm run dev
+```
 
-## Deploy on Vercel
+Then open [http://localhost:3000](http://localhost:3000) in your browser to see the application.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Building for Production
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+cd dashboard
+npm run build
+npm run start
+```
+
+## Note for Windows PowerShell Users
+
+When running commands, use semicolons (`;`) instead of `&&` for command chaining:
+
+```powershell
+# Instead of
+cd dashboard && npm run dev
+
+# Use
+cd dashboard; npm run dev
+```
